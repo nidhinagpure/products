@@ -3,16 +3,18 @@
     margin: 0;
     font-family: Arial;
     border:border-box;
+   
 }
 .border{
-    border:2px solid transparent
-}
-.border:hover{
-    border: 1.5px solid white;
+    border:2px solid transparent;
     padding: 5px;
 }
+.border:hover{
+   border: 1.5px solid white;
+    
+}
 .padding{
-    padding-right: 3px;
+    padding-right: 0px;
 }
 .text-deco{
     text-decoration: none;

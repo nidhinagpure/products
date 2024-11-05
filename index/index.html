@@ -83,20 +83,58 @@
     </div>
      <!--backgroung image End-->
 
-    <div class="container flex">
-        <h2>Gaming storde</h2>
-        <div class="flex">
-           <img src="./../image/chair.jpg" class="image">
-           <p class="flex"> Headsets</p>
-           <img src="./../image/computermics.jpg" class="image">
-           <p class="flex"> Headsets</p>
+     <!---Toys sections start-->
+     <div class="container">
+
+        <div class="image-container">
+            <img src="./../image/onecar.jpg" class="image"onclick="changeImage(1)">
+            <img src="./../image/twocar.jpg" class="image"onclick="changeImage(2)">
+            <img src="./../image/threecar.jpg" class="image"onclick="changeImage(3)">
+            <img src="./../image/fourcar.jpg" class="image"onclick="changeImage(4)">
+            <img src="./../image/fiecar.jpg" class="image"onclick="changeImage(5)">
         </div>
-        <div class="flex">
-            <img src="./../image/headset.jpg">
-            <p>Computer mice</p>
-            <img src="./../image/keybords.jpg">
-            <p>Chairs</p>
+
+        <div>
+            <img src="./../image/car.jpg" class="car-image"id="product">
+        </div>
+
+        <div class="paragraph">
+            <p class="text-font">Toyzone Baby Panda Magic Car-50940 | Ride-on Baby Car|<br>
+                 Kids Push Car|Swing Car |Comfortable Seats & Durable | Elegant Design<br> |
+                Ride on Toy Car for Kids|TwisterRide on|Magic Toy Car|Kids Ride<br>
+                 On|Push Rider|Steering Music<br>
+                & Lights | For Kids age 2+ </p> <br>
+                <span class="text-clour">viste the toy zone store</span><br>
+                <span class="text-clour">4.0 ⭐⭐⭐⭐ &nbsp;&nbsp;31,726 ratings</span><br>
+                <span class="text-clour">| Search this page</span><br><br>
+                <span class="back-text">#1 Most Gufted</span> <span class="text-clour"> in Push Ride-Ons</span><br><br>
+                <span class=" in Push Ride-Ons"><small>2k + bought in past month</small></span><br><br><hr><br>
+        
+                <span>Limited time deal</span><br>
+                <span class="color-text">-57 % </span><span class="super"><sup>₹ </sup> 1,199</span><br>
+                <span class="mrp-text">M.R.P.:<del>₹2,799</del></span><br><br>
+                <span>Inclusive of all taxes</span><br>
+                <span> <b>EMI</b>  starts at ₹109 per month. &nbsp; <span class="Emi">EMI option </span></span><br><br><hr>
         </div>
     </div>
+    <script>
+         function changeImage(num){
+            const mainImage = document.getElementById('product');
+
+            if(num==1){
+                mainImage.src="./../image/onecar.jpg";
+            }else if (num==2){
+                mainImage.src="./../image/twocar.jpg";
+            }else if (num==3){
+                mainImage.src="./../image/threecar.jpg";
+            }else if (num==4){
+                mainImage.src="./../image/fourcar.jpg";
+            }else if (num==5) {
+                mainImage.src="./../image/fiecar.jpg";
+            }
+        }
+            
+    </script>
+    
 </body>
 </html>
